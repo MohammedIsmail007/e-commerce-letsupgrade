@@ -1,7 +1,29 @@
 .product {
   display: flex;
+  flex-direction: column;
   flex-wrap: nowrap;
+  margin: 6px;
+  padding: 2px;
+  background-color: aqua;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 250px;
+  flex-basis: 10px;
 }
-h1 {
-  text-align: left;
+
+.product:hover {
+  background-color: transparent;
+
+  cursor: pointer;
+}
+p:hover {
+  background-color: blue;
+  border-radius: 15px;
+}
+img {
+  height: 100px;
+  width: 150px;
+  padding: 2px;
+  margin: 10px;
 }

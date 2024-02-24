@@ -11,14 +11,14 @@ function ProductList() {
   return (
     <div>
       <h1 className="title">Electric Appliance</h1>
-      <div className="product">
+      <div className="productdetail">
         <Product image={monitor} name="MONITOR" rupees="5000" />
         <Product image={printer} name="PRINTER" rupees="3500" />
         <Product image={projector} name="PROJECTOR" rupees="2500" />
       </div>
 
       <h1 className="title">Home Decors</h1>
-      <div className="product">
+      <div className="productdetail">
         <Product image={clock} name="CLOCK" rupees="1500" />
         <Product image={clock} name="CLOCK 1" rupees="2500" />
         <Product image={clock} name="CLOCK 2" rupees="1000" />

@@ -1,7 +1,6 @@
-.product {
-  display: flex;
-  flex-wrap: nowrap;
-}
 .title {
   text-align: left;
+}
+.productdetail {
+  display: flex;
 }
