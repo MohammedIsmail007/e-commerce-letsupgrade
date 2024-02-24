@@ -1,0 +1,7 @@
+.product {
+  display: flex;
+  flex-wrap: nowrap;
+}
+h1 {
+  text-align: left;
+}
